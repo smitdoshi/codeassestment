@@ -266,12 +266,14 @@ class Article  implements JsonSerializable {
 
 //        print_r($jsondecodedData);
 
-        // Intially pass null to validated function
-//        $art->validate($title,$body,$status,$art->getAuthor());
 
-//        Json display data is done using index.php file
+//        Json display data is with better GUI use index.php file or else Uncomment the below line of code.
 
-        // For each loops to parse the data
+/**
+            PLEASE Uncomment the below code to view the display on the same file.
+ *          And for testing purpose I have created a Test.json file.
+ */
+
 /*
         foreach ($jsondecodedData['book'] as $bk){
 
